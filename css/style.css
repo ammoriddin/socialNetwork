@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.items{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.item{
+    width: 180px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.397);
+    transform: rotate(-30deg) skewX(25deg) translate(0);
+}
+
+.item:hover{
+    transform: rotate(-30deg) skewX(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.397);
+    cursor: pointer;
+}
+
+.item img{
+    width: 50px;
+}
+
+.item p{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* 16:07da tugadi */
